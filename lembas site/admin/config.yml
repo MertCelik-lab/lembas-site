@@ -1,0 +1,18 @@
+backend:
+  name: github
+  repo: kullanici_adi/depo_adi MertCelik-lab/lembas
+  branch: main 
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog" 
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Başlık", name: "title", widget: "string" }
+      - { label: "Yayın Tarihi", name: "date", widget: "datetime" }
+      - { label: "İçerik", name: "body", widget: "markdown" }
