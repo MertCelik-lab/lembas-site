@@ -1,6 +1,6 @@
 backend:
-  name: github
-  repo: kullanici_adi/depo_adi MertCelik-lab/lembas
+  name: git gateway
+  
   branch: main 
 
 media_folder: "images"
